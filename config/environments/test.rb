@@ -57,4 +57,7 @@ Rails.application.configure do
 
   # Annotate rendered view with file names.
   # config.action_view.annotate_rendered_view_with_filenames = true
+
+  # ensure that your tests run successfully
+  config.active_record.verify_foreign_keys_for_fixtures = false
 end

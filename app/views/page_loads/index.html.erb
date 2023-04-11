@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Page loads</h1>
+
+<div id="page_loads">
+  <% @page_loads.each do |page_load| %>
+    <%= render page_load %>
+    <p>
+      <%= link_to "Show this page load", page_load %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New page load", new_page_load_path %>

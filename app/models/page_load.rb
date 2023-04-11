@@ -1,0 +1,2 @@
+class PageLoad < ApplicationRecord
+end
